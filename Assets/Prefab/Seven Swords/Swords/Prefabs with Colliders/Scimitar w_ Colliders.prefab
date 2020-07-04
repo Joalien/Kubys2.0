@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6655451162011390467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0467
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0816
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.49962366
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.66483676
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.48133293
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.27692416
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 21.303
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 245.709
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313260446, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 87.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724741343313556414, guid: 187ff200e01f8d275bb32b1873e390c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Scimitar w_ Colliders
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 187ff200e01f8d275bb32b1873e390c5, type: 3}

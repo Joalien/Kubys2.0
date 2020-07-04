@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1043501937430",
+    "firebase_url": "https://kubys-id.firebaseio.com",
+    "project_id": "kubys-id",
+    "storage_bucket": "kubys-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043501937430:android:f063ed7612632b2ccd5637",
+        "android_client_info": {
+          "package_name": "fr.kubys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043501937430-rdsepvts213hh9bthlfep6mj0pc7e8p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5M8J268RnRIgH5PndCRg9lD-PpR3b_Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043501937430-rdsepvts213hh9bthlfep6mj0pc7e8p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

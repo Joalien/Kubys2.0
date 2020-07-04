@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df312d9dc9a24eafad3ed94198402528, type: 3}
+  m_Name: Life
+  m_EditorClassIdentifier: 
+  charge: {fileID: 171420, guid: 3b7d09dab04c5884f8ee529f25a298fe, type: 3}
+  enchant: {fileID: 105302, guid: e4a4dd0be891ef542a95aef4b72806c4, type: 3}
+  auraRing: {fileID: 150516, guid: 40d8995d37b228c419637bcf1dade8bf, type: 3}
+  icon: {fileID: 2800000, guid: 150e1773ddc812642b3c08e59fec3c74, type: 3}
+  shield: {fileID: 100002, guid: f33f398b05e89d944a5e98e4d9a60ee7, type: 3}
+  missile: {fileID: 100000, guid: 0d86ac1105688154b88cd8ece7911a83, type: 3}

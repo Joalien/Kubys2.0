@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df312d9dc9a24eafad3ed94198402528, type: 3}
+  m_Name: Shadow
+  m_EditorClassIdentifier: 
+  charge: {fileID: 194586, guid: a862ba583d75a834da6fe74054b4328b, type: 3}
+  enchant: {fileID: 189070, guid: 7431a2dacefbbb44a84e4f8b585a4e0d, type: 3}
+  auraRing: {fileID: 171134, guid: 6faa3eed7e2c129489adbf91a75040ee, type: 3}
+  icon: {fileID: 2800000, guid: 26881b190a837d54fa86390e7720b3d8, type: 3}
+  shield: {fileID: 100000, guid: dc615a12cdfd5d34ca9cbafb5cc68a34, type: 3}
+  missile: {fileID: 100000, guid: 090a6f230c97fac4694506851289e3aa, type: 3}

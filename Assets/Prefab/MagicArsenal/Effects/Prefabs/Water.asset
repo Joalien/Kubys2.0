@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df312d9dc9a24eafad3ed94198402528, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  charge: {fileID: 125964, guid: 879465c710faf26498c43fec1e4bbbcc, type: 3}
+  enchant: {fileID: 170348, guid: 8c51d2af51854f148bba24c2904e2e63, type: 3}
+  auraRing: {fileID: 169766, guid: 4b04e2b7526deed47be4f17dd96b9aa9, type: 3}
+  icon: {fileID: 2800000, guid: 5ecfa50029f1a9e48a93de1ad0cfa578, type: 3}
+  shield: {fileID: 100000, guid: 6ecc60ef205d3084e9b551061fc74b4d, type: 3}
+  missile: {fileID: 100000, guid: 84ea467763dd55845972a2a664d7bb84, type: 3}

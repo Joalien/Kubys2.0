@@ -1,0 +1,8 @@
+.idea/
+Assembly-CSharp*
+Kubys - Training.*
+Library/ 
+Packages/ 
+Temp/ 
+build/ 
+obj/

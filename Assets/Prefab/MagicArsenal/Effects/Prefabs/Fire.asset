@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df312d9dc9a24eafad3ed94198402528, type: 3}
+  m_Name: Fire
+  m_EditorClassIdentifier: 
+  charge: {fileID: 139178, guid: 6b3488aa97f1d514d8a4fa45cc3b2dad, type: 3}
+  enchant: {fileID: 161104, guid: 799ba3095ff225146bea02318a149f87, type: 3}
+  auraRing: {fileID: 131454, guid: 495b63906f5f3bb40bf58baeb0848011, type: 3}
+  icon: {fileID: 2800000, guid: 03281c94f9924fa47a72404b965890f6, type: 3}
+  shield: {fileID: 100004, guid: 18a6b21b686693646907f4f8278ae8cf, type: 3}
+  missile: {fileID: 100000, guid: ac362dee23e5abd49a1bea78db16488b, type: 3}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff57b608d9514542a3e1a62bc1b3e7f8, type: 3}
+  m_Name: DashForward
+  m_EditorClassIdentifier: 
+  manaCost: 10
+  cooldown: 2
+  previsualizationShape: {fileID: 5817542972357035107, guid: 58e8d65884d10e8f6ae8789a4f4d2a52,
+    type: 3}
+  cursorShape: {fileID: 2800000, guid: e8da6823dea48c6459c77a4ababb83a5, type: 3}
+  caster: {fileID: 0}
+  hasAnimation: 0
+  range: 20
+  areaOfEffect: 0
+  damage: 0
+  repulsion: 0
+  initialForce: 0
+  timeBeforeDestroy: 0
+  animation: {fileID: 5817542972357035107, guid: 58e8d65884d10e8f6ae8789a4f4d2a52,
+    type: 3}
+  hasMovement: 1
+  dashForce: 3000
+  dashTime: 0.2
+  hasCharge: 1
+  chargeTime: 1
+  overhead: 1
