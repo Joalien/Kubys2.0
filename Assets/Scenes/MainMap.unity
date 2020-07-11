@@ -6493,6 +6493,10 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9579096, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11444856, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
       propertyPath: particle
       value: 
@@ -10132,7 +10136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc75e15ce38b4c9f8c61319625054f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultEmptyElement: {fileID: 0}
+  defaultEmptyElement: {fileID: 11400000, guid: 3a71778924756105dbdb39a46ad35326,
+    type: 2}
   mainElement: {fileID: 0}
   secondaryElement: {fileID: 0}
   auraRing: {fileID: 0}
@@ -10180,9 +10185,12 @@ MonoBehaviour:
   kdaUpdate:
     m_PersistentCalls:
       m_Calls: []
+  deathOfPlayer:
+    m_PersistentCalls:
+      m_Calls: []
   startingPosition: {x: -77.02666, y: 10.85277, z: -41.65517}
-  _currentHealth: 0
-  _currentMana: 0
+  currentHealth: 0
+  currentMana: 0
 --- !u!114 &742007906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20507,7 +20515,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc75e15ce38b4c9f8c61319625054f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultEmptyElement: {fileID: 0}
+  defaultEmptyElement: {fileID: 11400000, guid: 3a71778924756105dbdb39a46ad35326,
+    type: 2}
   mainElement: {fileID: 0}
   secondaryElement: {fileID: 0}
   auraRing: {fileID: 0}
@@ -20540,9 +20549,12 @@ MonoBehaviour:
   kdaUpdate:
     m_PersistentCalls:
       m_Calls: []
+  deathOfPlayer:
+    m_PersistentCalls:
+      m_Calls: []
   startingPosition: {x: -90, y: 11, z: -55}
-  _currentHealth: 0
-  _currentMana: 0
+  currentHealth: 0
+  currentMana: 0
 --- !u!114 &1476669550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21735,7 +21747,7 @@ GameObject:
   - component: {fileID: 1628442349}
   - component: {fileID: 1628442350}
   m_Layer: 0
-  m_Name: elementSpawner
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
