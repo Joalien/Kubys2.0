@@ -13,10 +13,12 @@ public class MagicProjectileScript : MonoBehaviour
  
     private bool hasCollided = false;
     private const int AreaOfEffect = 5;
-    [HideInInspector] public PlayerCharacteristics caster;
+    [HideInInspector] public PlayerCharacteristics caster; // Change from outside
+    public TextPublisher text;
 
     void Start()
     {
+        text = FindObjectOfType<TextPublisher>();
         projectileParticle = Instantiate(projectileParticle, transform.position, transform.rotation) as GameObject;
         projectileParticle.transform.parent = transform;
 		if (muzzleParticle) {
@@ -71,7 +73,7 @@ public class MagicProjectileScript : MonoBehaviour
                     Rigidbody rb = player.GetComponent<Rigidbody>();
                     if (rb)
                     {
-                        Vector3 force = Vector3.Normalize(player.transform.position - hit.transform.position) * 100;
+                        Vector3 force = Vector3.Normalize(player.transform.position - hit.transform.position) * 1000;
                         rb.AddForce(force);
                     }
 
@@ -84,11 +86,14 @@ public class MagicProjectileScript : MonoBehaviour
     private void CastSpell(PlayerCharacteristics target)
     {
         // TODO Add complex function to compute damage based on player's stats
-        target.DecreaseHealth(200);
+        target.DecreaseHealth(600);
         // FIXME Maybe bad design (second check life <= 0 in the code)
         if (target.CurrentHealth <= 0)
         {
+            // Debug.Log("caster : " + caster);
+            // Debug.Log("target : " + target);
             caster.Kill++;
+            text.SendNewMessage(caster.name + " killed " + target.name);
         }
     }
 }

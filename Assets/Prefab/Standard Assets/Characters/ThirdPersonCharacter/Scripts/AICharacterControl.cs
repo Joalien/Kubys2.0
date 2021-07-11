@@ -20,6 +20,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 	        agent.updateRotation = false;
 	        agent.updatePosition = true;
+            agent.stoppingDistance = 5f;
         }
 
 

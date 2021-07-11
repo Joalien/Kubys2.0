@@ -17,7 +17,6 @@ MonoBehaviour:
   previsualizationShape: {fileID: 5817542972357035107, guid: 58e8d65884d10e8f6ae8789a4f4d2a52,
     type: 3}
   cursorShape: {fileID: 2800000, guid: e8da6823dea48c6459c77a4ababb83a5, type: 3}
-  caster: {fileID: 0}
   hasAnimation: 0
   range: 20
   areaOfEffect: 0
