@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df312d9dc9a24eafad3ed94198402528, type: 3}
   m_Name: Storm
   m_EditorClassIdentifier: 
-  charge: {fileID: 0}
-  enchant: {fileID: 0}
-  auraRing: {fileID: 0}
-  icon: {fileID: 0}
-  shield: {fileID: 0}
-  missile: {fileID: 0}
+  charge: {fileID: 193998, guid: be9c49d40577af94fa21cbb1dc0dc38d, type: 3}
+  enchant: {fileID: 149318, guid: 6be67a1028ae2f94bb43c8e6bf33e08f, type: 3}
+  auraRing: {fileID: 121842, guid: af82839cea9b35c42a7ad215c8a1c783, type: 3}
+  icon: {fileID: 2800000, guid: 07ba602ad4450ea48b3f49f924110fba, type: 3}
+  shield: {fileID: 100000, guid: 0afd72c3a3793ed45ba4bfaa90d506aa, type: 3}
+  missile: {fileID: 100000, guid: 658dfb93c2407984a92aeed75c042f4b, type: 3}

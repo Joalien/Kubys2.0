@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df312d9dc9a24eafad3ed94198402528, type: 3}
+  m_Name: Arcane
+  m_EditorClassIdentifier: 
+  charge: {fileID: 159362, guid: 0d9b0e27a2944614abe85db3c25b3d74, type: 3}
+  enchant: {fileID: 117108, guid: 165414722706add4fa2ac35a47c471ff, type: 3}
+  auraRing: {fileID: 117000, guid: c34a02a9677f6bb47b7aef417e2828be, type: 3}
+  icon: {fileID: 2800000, guid: 59f654c034abb334a8ba4591c79f4464, type: 3}
+  shield: {fileID: 100002, guid: d8bc825bd1811bd4aacb4e3578be5326, type: 3}
+  missile: {fileID: 100000, guid: 863af2aed5e75e844ab1a6ab85686ce5, type: 3}

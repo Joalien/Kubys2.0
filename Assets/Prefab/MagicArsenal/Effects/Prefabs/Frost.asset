@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df312d9dc9a24eafad3ed94198402528, type: 3}
   m_Name: Frost
   m_EditorClassIdentifier: 
-  charge: {fileID: 0}
-  enchant: {fileID: 0}
-  auraRing: {fileID: 0}
-  icon: {fileID: 0}
-  shield: {fileID: 0}
-  missile: {fileID: 0}
+  charge: {fileID: 139782, guid: 4016dcb540ea2da469c212ee1f27f43a, type: 3}
+  enchant: {fileID: 127662, guid: c70cded20eb22b54b85e9004073a5073, type: 3}
+  auraRing: {fileID: 107938, guid: e6b99df4d65f88a418b28a7447d53580, type: 3}
+  icon: {fileID: 2800000, guid: 89d6fcf1b6e03be45b794182ea1e0de7, type: 3}
+  shield: {fileID: 100002, guid: d9eca31fd43c4f94cb4860b71f3a6d40, type: 3}
+  missile: {fileID: 100000, guid: eb1e7265f93dd7842acac70e858320d3, type: 3}

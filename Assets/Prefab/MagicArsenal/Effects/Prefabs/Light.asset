@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df312d9dc9a24eafad3ed94198402528, type: 3}
   m_Name: Light
   m_EditorClassIdentifier: 
-  charge: {fileID: 0}
-  enchant: {fileID: 0}
-  auraRing: {fileID: 0}
-  icon: {fileID: 0}
-  shield: {fileID: 0}
-  missile: {fileID: 0}
+  charge: {fileID: 109672, guid: 220a4e71c5c7a7a42a7fd23e246bff14, type: 3}
+  enchant: {fileID: 100316, guid: 5611d36819a49ef419d0a000b4f6627e, type: 3}
+  auraRing: {fileID: 119402, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+  icon: {fileID: 2800000, guid: 960db7ff93607b041a7962fe746523ca, type: 3}
+  shield: {fileID: 100000, guid: b6ac2ba5687816e43984b9ee3a277757, type: 3}
+  missile: {fileID: 100000, guid: 7548e67aebd15bb4096508b099752b08, type: 3}

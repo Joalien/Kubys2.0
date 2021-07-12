@@ -3,101 +3,80 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [ExecuteInEditMode]
-
-public class ProgressBar : MonoBehaviour
+public abstract class ProgressBar : MonoBehaviour
 {
+    [SerializeField] private int titleFontSize = 40;
 
-    public bool isLife;
     public PlayerCharacteristics playerCharacteristics;
 
-    [Header("Title Setting")]
-    public string Title;
-    public Color TitleColor;
-    public Font TitleFont;
-    public int TitleFontSize = 10;
-
-    public Color BarColor;
-    public Color BarBackGroundColor;
+    public Color barBackGroundColor = Color.white;
     public Sprite BarBackGroundSprite;
 
-    private Image bar, barBackground;
-    private Text txtTitle;
-    private float maximum;
-    private float current;
-    private float barValue;
+    private readonly Color _titleColor = Color.white;
+
+    private Image _bar, _barBackground;
+
+    private float _current;
+
+    private Text _txtTitle;
+
+    // protected float barValue;
     public float Current
     {
-        get => current;
+        get => _current;
 
         set
         {
-            value = Mathf.Clamp(value, 0, maximum);
-            current = value;
+            value = Mathf.Clamp(value, 0, Maximum);
+            _current = value;
             Refresh();
         }
     }
 
-    public float Maximum
-    {
-        get => maximum;
-        set => maximum = value;
-    }
+    public float Maximum { get; set; }
 
     private void Awake()
     {
-        bar = transform.Find("Bar").GetComponent<Image>();
-        barBackground = GetComponent<Image>();
-        txtTitle = transform.Find("Text").GetComponent<Text>();
-        barBackground = transform.Find("BarBackground").GetComponent<Image>();
+        Init();
     }
 
-    private void Start()
-    {
-        txtTitle.color = TitleColor;
-        txtTitle.font = TitleFont;
-        txtTitle.fontSize = TitleFontSize;
-
-        bar.color = BarColor;
-        barBackground.color = BarBackGroundColor; 
-        barBackground.sprite = BarBackGroundSprite;
-
-        Maximum = isLife ? playerCharacteristics.totalHealth : playerCharacteristics.totalMana;
-
-        (isLife ? playerCharacteristics.healthUpdate : playerCharacteristics.manaUpdate).AddListener(Call);
-
-        playerCharacteristics.healthUpdate.Invoke();
-        playerCharacteristics.manaUpdate.Invoke();
-    }
-
-    private void Call()
-    {
-        Current = isLife ? playerCharacteristics.CurrentHealth : playerCharacteristics.CurrentMana;
-    }
-
-    private void Update()
+    protected void Update()
     {
         if (!Application.isPlaying)
         {
-            current = 50;
-            maximum = 100;
+            Init();
+            Current = 65;
+            Maximum = 100;
             Refresh();
-            txtTitle.color = TitleColor;
-            txtTitle.font = TitleFont;
-            txtTitle.fontSize = TitleFontSize;
-
-            bar.color = BarColor;
-            barBackground.color = BarBackGroundColor;
-
-            barBackground.sprite = BarBackGroundSprite;           
         }
     }
 
-    public void Refresh()
+    private void Init()
     {
-        bar.fillAmount = current / maximum;
-        if (playerCharacteristics.gameObject.name == "MyPlayer")
-        {
-            txtTitle.text = Title + " " + current + "/" + maximum + " (" + Math.Round(current * 100 / maximum) + "%)";
-        }
+        _bar = transform.Find("Bar").GetComponent<Image>();
+        _txtTitle = transform.Find("Text").GetComponent<Text>();
+        _barBackground = transform.Find("BarBackground").GetComponent<Image>();
+
+        _txtTitle.color = _titleColor;
+        _txtTitle.fontSize = titleFontSize;
+
+        _bar.color = GetBarColor();
+
+        _barBackground.color = barBackGroundColor;
+        _barBackground.sprite = BarBackGroundSprite;
     }
+
+
+    protected abstract void Call();
+
+    private void Refresh()
+    {
+        _bar.fillAmount = _current / Maximum;
+        if (playerCharacteristics.gameObject.name == "MyPlayer")
+            _txtTitle.text = GetTitle() + " " + (int) _current + "/" + Maximum + " (" +
+                             Math.Round(_current * 100 / Maximum) + "%)";
+    }
+
+    protected abstract Color GetBarColor();
+    protected abstract string GetTitle();
 }

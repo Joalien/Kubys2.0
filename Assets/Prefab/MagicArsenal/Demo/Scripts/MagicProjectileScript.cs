@@ -86,7 +86,7 @@ public class MagicProjectileScript : MonoBehaviour
     private void CastSpell(PlayerCharacteristics target)
     {
         // TODO Add complex function to compute damage based on player's stats
-        target.DecreaseHealth(600);
+        target.DecreaseHealth(target.GetComponent<Shield>() != null && target.GetComponent<Shield>().IsProtected() ? 100 : 600);
         // FIXME Maybe bad design (second check life <= 0 in the code)
         if (target.CurrentHealth <= 0)
         {
