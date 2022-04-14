@@ -18,3 +18,5 @@ MonoBehaviour:
   icon: {fileID: 2800000, guid: 85f6633326b0ca44ebfc454ec65d2730, type: 3}
   shield: {fileID: 100004, guid: 0c780eb88b8d7494b88387a181d2ee75, type: 3}
   missile: {fileID: 100000, guid: 8935885a255033e4a8611c5f97ea838d, type: 3}
+  beam: {fileID: 168570, guid: 3827d5026e528924493e36340309f078, type: 3}
+  beamStart: {fileID: 179694, guid: cf0bdea0aea918340a7a202187457d8c, type: 3}

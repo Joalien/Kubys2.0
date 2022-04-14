@@ -57,9 +57,9 @@ public class MagicBeamScript : MonoBehaviour {
         }
         if (Input.GetMouseButtonUp(0))
         {
-            Destroy(beamStart);
-            Destroy(beamEnd);
-            Destroy(beam);
+            // Destroy(beamStart);
+            // Destroy(beamEnd);
+            // Destroy(beam);
         }
 
         if (Input.GetMouseButton(0))
