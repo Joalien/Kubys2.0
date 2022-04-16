@@ -1,0 +1,33 @@
+0000000000000000000000000000000000000000 0823c54e99d68f7895c9dc4b6c8ce08a1cb0e5ad Josquin Cornec <josquin.cornec@change.me> 1589290965 +0200	commit (initial): Ugly, but work
+0823c54e99d68f7895c9dc4b6c8ce08a1cb0e5ad 41539f65932938df388cd57911b96f6b028788a2 Josquin Cornec <josquin.cornec@change.me> 1589545433 +0200	commit: Bat is running outside of a sphere
+41539f65932938df388cd57911b96f6b028788a2 71a95fff36b0129beb511fc027963d7f017b0220 Josquin Cornec <josquin.cornec@change.me> 1589550127 +0200	commit: Add rotating camera (not optimized, but working)
+71a95fff36b0129beb511fc027963d7f017b0220 83c53d2817029728421b1a27916282a5666cdbce Josquin Cornec <josquin.cornec@change.me> 1589559871 +0200	commit: Working TPS with rotating bat
+83c53d2817029728421b1a27916282a5666cdbce 71a95fff36b0129beb511fc027963d7f017b0220 Josquin Cornec <josquin.cornec@change.me> 1589707775 +0200	checkout: moving from master to HEAD^
+71a95fff36b0129beb511fc027963d7f017b0220 83c53d2817029728421b1a27916282a5666cdbce Josquin Cornec <josquin.cornec@change.me> 1589707948 +0200	checkout: moving from 71a95fff36b0129beb511fc027963d7f017b0220 to master
+83c53d2817029728421b1a27916282a5666cdbce 1e4298045ae354cd7af0df6751763af57a961400 Josquin Cornec <josquin.cornec@change.me> 1589712266 +0200	commit: wip
+1e4298045ae354cd7af0df6751763af57a961400 e44392b62cc1e305ed4016d3b6cd9afbd1360368 Josquin Cornec <josquin.cornec@change.me> 1590785940 +0200	commit: Add a lot of stuff. Weapons can be grabed
+e44392b62cc1e305ed4016d3b6cd9afbd1360368 a8b0668dac7215b8ea42e9de2845845a290ae8be Josquin Cornec <josquin.cornec@change.me> 1590785950 +0200	commit (amend): Add a lot of stuff. Weapons can be grabbed
+a8b0668dac7215b8ea42e9de2845845a290ae8be 37b485304ac2e8daff7b0b778c11eb18ba64de5c Josquin Cornec <josquin.cornec@change.me> 1590967013 +0200	commit: Player can grab potions, has working GUI and may die
+37b485304ac2e8daff7b0b778c11eb18ba64de5c 927c9969f3eacd6debe42f293e491928bfa09c31 Josquin Cornec <josquin.cornec@change.me> 1591649302 +0200	commit: Add death and respawn logic
+927c9969f3eacd6debe42f293e491928bfa09c31 6de7e35680d4095a79170f6467d674f445726d57 Josquin Cornec <josquin.cornec@change.me> 1592065812 +0200	commit: Improve GrabWeapon to deal with multiple players and other stuffs
+6de7e35680d4095a79170f6467d674f445726d57 1204f9e786a9a388b34fe1f2683893d53aeb870c Josquin Cornec <josquin.cornec@change.me> 1592142292 +0200	commit: Add Elements
+1204f9e786a9a388b34fe1f2683893d53aeb870c eddc056481c6ea9c3bed5f4750f799c7368766c4 Josquin Cornec <josquin.cornec@change.me> 1592144610 +0200	commit: Refacto with catchable objects
+eddc056481c6ea9c3bed5f4750f799c7368766c4 744e5434410faa37a23a4ac54abaf8394c224ef4 Josquin Cornec <josquin.cornec@change.me> 1592158412 +0200	commit: Grab, switch, drop elements and drop weapon
+744e5434410faa37a23a4ac54abaf8394c224ef4 5a6401ad893e9416066719c889b75087ed25fe9f Josquin Cornec <josquin.cornec@kubys.fr> 1593871514 +0200	commit: Does not work now
+5a6401ad893e9416066719c889b75087ed25fe9f 744e5434410faa37a23a4ac54abaf8394c224ef4 Josquin Cornec <josquin.cornec@kubys.fr> 1593871526 +0200	checkout: moving from master to 744e543
+744e5434410faa37a23a4ac54abaf8394c224ef4 5a6401ad893e9416066719c889b75087ed25fe9f Josquin Cornec <josquin.cornec@kubys.fr> 1593871591 +0200	checkout: moving from 744e5434410faa37a23a4ac54abaf8394c224ef4 to 5a6401a
+5a6401ad893e9416066719c889b75087ed25fe9f 744e5434410faa37a23a4ac54abaf8394c224ef4 Josquin Cornec <josquin.cornec@kubys.fr> 1593871628 +0200	checkout: moving from 5a6401ad893e9416066719c889b75087ed25fe9f to 744e543
+744e5434410faa37a23a4ac54abaf8394c224ef4 5a6401ad893e9416066719c889b75087ed25fe9f Josquin Cornec <josquin.cornec@kubys.fr> 1593871699 +0200	checkout: moving from 744e5434410faa37a23a4ac54abaf8394c224ef4 to master
+5a6401ad893e9416066719c889b75087ed25fe9f 744e5434410faa37a23a4ac54abaf8394c224ef4 Josquin Cornec <josquin.cornec@kubys.fr> 1593871710 +0200	checkout: moving from master to HEAD^
+744e5434410faa37a23a4ac54abaf8394c224ef4 5a6401ad893e9416066719c889b75087ed25fe9f Josquin Cornec <josquin.cornec@kubys.fr> 1593871714 +0200	checkout: moving from 744e5434410faa37a23a4ac54abaf8394c224ef4 to master
+5a6401ad893e9416066719c889b75087ed25fe9f 744e5434410faa37a23a4ac54abaf8394c224ef4 Josquin Cornec <josquin.cornec@kubys.fr> 1593871720 +0200	reset: moving to HEAD^
+744e5434410faa37a23a4ac54abaf8394c224ef4 57fe436acce2b82c71aef8f010af46ca6b67bc28 Josquin Cornec <josquin.cornec@kubys.fr> 1593871763 +0200	commit: Working ?
+57fe436acce2b82c71aef8f010af46ca6b67bc28 11e2708a0c4598db3e81c5e10ed9033973be9664 Josquin Cornec <josquin.cornec@kubys.fr> 1593871776 +0200	commit: Working2 ?
+11e2708a0c4598db3e81c5e10ed9033973be9664 57fe436acce2b82c71aef8f010af46ca6b67bc28 Josquin Cornec <josquin.cornec@kubys.fr> 1593871780 +0200	checkout: moving from master to HEAD^
+57fe436acce2b82c71aef8f010af46ca6b67bc28 744e5434410faa37a23a4ac54abaf8394c224ef4 Josquin Cornec <josquin.cornec@kubys.fr> 1593871806 +0200	checkout: moving from 57fe436acce2b82c71aef8f010af46ca6b67bc28 to HEAD^
+744e5434410faa37a23a4ac54abaf8394c224ef4 11e2708a0c4598db3e81c5e10ed9033973be9664 Josquin Cornec <josquin.cornec@kubys.fr> 1593871830 +0200	checkout: moving from 744e5434410faa37a23a4ac54abaf8394c224ef4 to master
+11e2708a0c4598db3e81c5e10ed9033973be9664 744e5434410faa37a23a4ac54abaf8394c224ef4 Josquin Cornec <josquin.cornec@kubys.fr> 1593875073 +0200	rebase -i (start): checkout HEAD~3
+744e5434410faa37a23a4ac54abaf8394c224ef4 57fe436acce2b82c71aef8f010af46ca6b67bc28 Josquin Cornec <josquin.cornec@kubys.fr> 1593875073 +0200	rebase -i : avance rapide
+57fe436acce2b82c71aef8f010af46ca6b67bc28 e6879d891c97bc33aa800a4778d6f9f5031aba16 Josquin Cornec <josquin.cornec@kubys.fr> 1593875073 +0200	rebase -i (reword): I don't know what I did here. Sorry bro :'(
+e6879d891c97bc33aa800a4778d6f9f5031aba16 2322983bc34bdf73804dac514fca7479f09e620c Josquin Cornec <josquin.cornec@kubys.fr> 1593875087 +0200	rebase -i (fixup): I don't know what I did here. Sorry bro :'(
+2322983bc34bdf73804dac514fca7479f09e620c 2322983bc34bdf73804dac514fca7479f09e620c Josquin Cornec <josquin.cornec@kubys.fr> 1593875087 +0200	rebase -i (finish): returning to refs/heads/master

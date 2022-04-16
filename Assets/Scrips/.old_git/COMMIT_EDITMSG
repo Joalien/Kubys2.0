@@ -1,0 +1,26 @@
+I don't know what I did here. Sorry bro :'(
+
+# Veuillez saisir le message de validation pour vos modifications. Les lignes
+# commençant par '#' seront ignorées, et un message vide abandonne la validation.
+#
+# Date :       Sat Jul 4 16:09:23 2020 +0200
+#
+# rebasage interactif en cours ; sur eddc056
+# Dernières commandes effectuées (2 commandes effectuées) :
+#    pick 744e543 Grab, switch, drop elements and drop weapon
+#    reword 57fe436 Working ?
+# Prochaine commande à effectuer (1 commande restante) :
+#    fixup 11e2708 Working2 ?
+# Vous êtes actuellement en train d'éditer un commit pendant un rebasage de la branche 'master' sur 'eddc056'.
+#
+# Modifications qui seront validées :
+#	nouveau fichier : CatchableObject.cs
+#	nouveau fichier : CursorScript.cs
+#	nouveau fichier : Element.cs
+#	nouveau fichier : ElementScript.cs
+#	nouveau fichier : PlayerElements.cs
+#	nouveau fichier : ProcessElements.cs
+#	nouveau fichier : SpawnerScript.cs
+#	nouveau fichier : StickToGameObjectScript.cs
+#	nouveau fichier : WeaponCharacteristics.cs
+#
